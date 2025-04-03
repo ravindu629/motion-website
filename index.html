@@ -97,7 +97,7 @@
       </div>
       <!-- image carousel -->
 
-      <div id="carouselExample" class="carousel slide">
+      <div id="carouselExample" class="carousel slide first-rotate-carousel">
         <div class="carousel-inner">
           <div class="carousel-item active">
             <div>
@@ -361,48 +361,13 @@
     <div id="portfolio" class="section-four">
       <div class="container-fluid top-section">
         <div class="text-center pt-5">
-          <h2 class="bariol mb-3 fw-bold">Elegant & Genuine</h2>
+          <h2 class="bariol mb-3 fw-bold heading">Elegant & Genuine</h2>
           <p class="bariol">This is how our work look like :)</p>
         </div>
 
-        <!-- <div class="container">
-          <div class="sectopn-4-carousel-layout">
-            <div
-              class="row text-center d-flex justify-content-between align-items-center"
-            >
-              <div class="col-lg-3 column-3-1 p-0">
-                <div>
-                  <img src="assets/images/layer-1.png" alt="" />
-                  <p class="work-title mx-auto text-dark">SMS Clouds</p>
-                </div>
-              </div>
-              <div class="col-lg-3 column-3-2">
-                <div>
-                  <img src="assets/images/layer-2.png" alt="" />
-                  <p class="work-title mx-auto text-dark">Blue Apple Soft</p>
-                </div>
-              </div>
-              <div class="col-lg-3 column-3-3">
-                <div>
-                  <img src="assets/images/layer-3.png" alt="" />
-                  <p class="work-title mx-auto text-dark">
-                    Together Application
-                  </p>
-                </div>
-              </div>
-              <div class="col-lg-3 column-3-4">
-                <div>
-                  <img src="assets/images/layer-4.png" alt="" />
-                  <p class="work-title mx-auto text-dark">FCBarcelona Club</p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div> -->
-
         <div class="container middle-carousel">
           <div
-            id="carouselExample"
+            id="carouselExampleMiddle"
             class="carousel slide"
             data-bs-ride="carousel"
           >
@@ -600,29 +565,26 @@
                 </div>
               </div>
             </div>
+
             <button
               class="carousel-control-prev"
               type="button"
-              data-bs-target="#carouselExample"
+              data-bs-target="#carouselExampleMiddle"
               data-bs-slide="prev"
             >
-              <span
-                class="carousel-control-prev-icon"
-                aria-hidden="true"
-              ></span>
-              <span class="visually-hidden">Previous</span>
+              <i
+                class="bi bi-chevron-left middle-carousel-btn-prev fs-2 fw-bold"
+              ></i>
             </button>
             <button
               class="carousel-control-next"
               type="button"
-              data-bs-target="#carouselExample"
+              data-bs-target="#carouselExampleMiddle"
               data-bs-slide="next"
             >
-              <span
-                class="carousel-control-next-icon"
-                aria-hidden="true"
-              ></span>
-              <span class="visually-hidden">Next</span>
+              <i
+                class="bi bi-chevron-right middle-carousel-btn-next fs-2 fw-bold"
+              ></i>
             </button>
           </div>
         </div>
@@ -781,7 +743,11 @@
 
     <!-- section-five -->
     <div id="other" class="section-five container-fluid">
-      <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
+      <div
+        id="carouselExampleBottom"
+        class="carousel slide"
+        data-bs-ride="carousel"
+      >
         <div class="carousel-inner">
           <div class="carousel-item active">
             <div class="row">
@@ -826,24 +792,32 @@
             </div>
           </div>
         </div>
+
         <button
           class="carousel-control-prev"
           type="button"
-          data-bs-target="#carouselExample"
+          data-bs-target="#carouselExampleBottom"
           data-bs-slide="prev"
         >
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
+          <span
+            class="d-inline-flex align-items-center justify-content-center bg-dark text-white rounded-circle final-carousel-nav-btn-prv"
+            style="width: 30px; height: 30px; font-size: 18px; line-height: 0.5"
+          >
+            <i class="bi bi-chevron-left"></i>
+          </span>
         </button>
-
         <button
           class="carousel-control-next"
           type="button"
-          data-bs-target="#carouselExample"
+          data-bs-target="#carouselExampleBottom"
           data-bs-slide="next"
         >
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
+          <span
+            class="d-inline-flex align-items-center justify-content-center bg-dark text-white rounded-circle final-carousel-nav-btn-nxt"
+            style="width: 30px; height: 30px; font-size: 18px; line-height: 0.5"
+          >
+            <i class="bi bi-chevron-right"></i>
+          </span>
         </button>
       </div>
     </div>
